@@ -72,6 +72,9 @@ body{
   padding: 16px 0;
   background-color: orange;
 }
+.nav-menu {
+    list-style-type: none;
+}
 .nav-menu a {
     text-decoration: none;
     font-size: 24px;
@@ -96,14 +99,41 @@ main{
     font-size: 24px;
     text-transform: capitalize;
     margin-bottom: 32px;
+    
+}
+ol{
+    list-style-type: decimal;
+    /* list-style-position: inside; */
+}
+ul{
+    list-style-type: disc;
+}
+ul,ol{
+    padding-left: 40px;
 }
 li{
     margin-bottom: 7px;
 }
+.link{
+    
+    list-style-image: url(../media/tick.png );
+}
+
 .col{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* Description Lists */
+dl{
+    font-size: 24px;
+}
+dd{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-left: 40px;
 }
 dt{
     font-size: 32px;
@@ -112,14 +142,7 @@ dt{
     margin-bottom: 10px;
     margin-top: 10px;
 }
-dd{
-    font-size: 18px;
-    text-transform: capitalize;
-    margin-top: 10px;
-}
-.box-1{
-    list-style-type: decimal;
-}
+
 
 /* Footer */
 .footer{
